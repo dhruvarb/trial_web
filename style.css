@@ -1,0 +1,138 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+/* Style the navigation bar */
+*{
+    font-family: 'Mooli', sans-serif;
+}
+.navbar {
+    background-color: #1976D2; /* Change to your preferred navbar color */
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif; /* Classy font */
+    font-size: 36px; /* Adjust the font size */
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px; /* Adjust the font size */
+    margin-right: 15px; /* Add spacing between nav items */
+}
+
+/* Add this CSS to your existing styles.css */
+/* Style the hero section */
+.hero {
+    background-image: url('hero-new.jpg'); /* Add your hero image URL */
+    background-size: cover;
+    text-align: center;
+    color: #fff; /* Text color on the hero section */
+    padding: 150px 0;
+    
+}
+
+/* Rest of your existing CSS styles for the hero section */
+.hero h1 {
+    font-family: 'Playfair Display', serif; /* Classy font */
+    font-size: 48px; /* Adjust the font size */
+}
+
+.hero p {
+    font-size: 24px; /* Adjust the font size */
+}
+
+/* Change the color scheme of the whole page */
+body {
+    background-color: #f5f5f5; /* Change to your preferred background color */
+    font-family: Arial, sans-serif; /* Change to your preferred font family */
+}
+/* styles.css */
+/* Style the feature icons */
+.feature-icon {
+    background-color: #fff; /* Icon background color */
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.feature-icon i {
+    color: #ff1493; /* Icon color */
+}
+
+/* Style feature titles and descriptions */
+#features h3 {
+    font-family: 'Playfair Display', serif; /* Classy font */
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+#features p {
+    font-size: 18px;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #ff1493; /* Pinkish-red tone */
+    font-family: monospace; /* Font change to monospace */
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+    font-family: monospace; /* Font change to monospace */
+    font-size: 24px; /* Adjust font size as needed */
+    color: #fff; /* Text color */
+}
+/* Additional CSS styles for the contact section */
+.contact-section {
+    background-color: #4CAF50;
+    padding: 80px 0;
+}
+
+.contact-heading h2 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-heading p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.sharp-input {
+    border: 2px solid #45A049;
+    border-radius: 0;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+    transition: border-color 0.3s;
+}
+
+.sharp-input:focus {
+    border-color: #4CAF50;
+}
+
+.contact-form textarea.sharp-input {
+    resize: none;
+}
+
+.btn-submit {
+    background-color: #000000;
+    color: #eb5b5b;
+    border: 2px solid white;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #ffffff;
+}
+.btn-control{
+    display: none;
+}
